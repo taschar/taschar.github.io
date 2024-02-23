@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+  <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+  {% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="{{ '/images/logo/logo2.svg' | relative_url }}">
+
+  <!-- Set canonical tag -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+
+  <!-- Google Fonts CDN -->
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+  
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="{{ page.image}}"/>
+
+
+</head>
+
+<body class='page {{layout.bodyClass}}'>
+  {% include main-menu-mobile.html %}
+  <div id="wrapper" class="wrapper">
+    {% include header.html headerClass='header-extra' %}
+
+ <br> <br> <br> <br>  <!-- fixed navbar -->
+
+    {{content}}
+
+  </div>
+  {% include footer.html %}
+  {% include sub-footer.html %}
+  <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  <!-- {% include google-analytics.html %} -->
+</body>
+</html>

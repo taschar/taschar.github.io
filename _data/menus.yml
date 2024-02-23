@@ -1,0 +1,29 @@
+main:
+  - name: "Αρχική"
+    url: "/"
+    weight: 1
+  - name: "Υπηρεσίες"
+    url: "/services/"
+    weight: 2
+  
+  - name: "Βιογραφικό"
+    url: "/about/"
+    weight: 3
+  - name: "Blog"
+    url: "/news/"
+    weight: 4
+  - name: "Επικοινωνία"
+    url: "/contact/"
+    weight: 5
+
+footer:
+  - name: "Αρχική"
+    url: "/"
+    weight: 1
+  - name: "Επικοινωνία"
+    url: "/contact/"
+    weight: 1
+  - name: "Credits"
+    url: "/credits/"
+    weight: 1
+  

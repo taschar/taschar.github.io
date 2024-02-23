@@ -1,0 +1,49 @@
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Φόρμα Επικοινωνίας</h2>
+                    <h3 class="section-subheading text-muted">Αν έχετε οποιαδήποτε ερώτηση ή παρατήρηση μπορείτε να μας στείλετε μήνυμα και θα χαρούμε να επικοινωνήσουμε μαζί σας το συντομότερο δυνατόν.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate action="https://setup_your_cloudflare_worker.com/submit" method="POST"> <!-- follow instructions in https://developers.cloudflare.com/workers/tutorials/handle-form-submissions-with-airtable/ -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="control-group form-group">
+                                    <input type="text" class="form-control" name="full_name" placeholder="Ονοματεπώνυμο *" id="full_name" required >
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Το email σας *" id="email" required>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group form-group">
+                                    <input type="tel" class="form-control" name="phone" placeholder="Το τηλέφωνό σας " id="phone">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+
+                                <!--<div class="control-group form-group">
+                                    <input type="subject" class="form-control" name="subject" placeholder="Θέμα μηνύματος *" id="subject" required data-validation-required-message="Το θέμα του μηνύματος.">
+                                    <p class="help-block text-danger"></p>
+                                </div> -->
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="control-group form-group">
+                                    <textarea cols="40" rows="8" class="form-control" placeholder="Το μήνυμά σας *" name="message" id="message" required ></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Υποβολή μηνύματος</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 

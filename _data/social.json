@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/taschar/taschar.github.io",
+    "image": "images/social/github.svg"
+  },
+  {
+    "name": "Facebook",
+    "link": "https://www.facebook.com",
+    "image": "images/social/facebook.svg"
+  },
+  {
+      "name": "Email",
+      "link": "mailto:info@yourdomainname.gr",
+      "image": "images/social/email.svg"
+  }
+]

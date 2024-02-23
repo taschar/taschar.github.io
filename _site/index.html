@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+  <title>Όνομα τίτλος site 1 (φαίνεται στην καρτέλα του browser)</title>
+  <meta name="description" content="Περιγραφή ιστοσελίδας (φαίνεται στις αναζητήσεις ιστού)" />
+  <meta property="og:title" content="Όνομα τίτλος site 1 (φαίνεται στην καρτέλα του browser)"/>
+  <meta name="keywords" content="ιατρικη ιστοσελιδα, δωρεάν ιατρική ιστοσελίδα" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/logo/logo2.svg">
+
+  <!-- Set canonical tag -->
+  <link rel="canonical" href="http://localhost:4000/">
+
+  <!-- Google Fonts CDN -->
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content=""/>
+
+
+</head>
+
+<body class='page page-home'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="active">
+      <a href="/">Αρχική</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Υπηρεσίες</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">Βιογραφικό</a>
+    </li>
+    
+    <li class="">
+      <a href="/news/">Blog</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Επικοινωνία</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header' id='navbar'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img width="190px" height="45px" alt="Ονομα 3 στο  <br> footer " src="/images/logo/logo8.svg" /></a> 
+    </div>
+ <div class="logo-mobile">
+      <a href="/"><img width="45px" height="45px"  alt="Ονομα 3 στο  <br> footer " src="/images/logo/logo.svg" /></a> <!-- <a href="/"><em>όνομα 3 includes header </em> </a> -->
+    </div> 
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="active">
+      <a href="/">Αρχική</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Υπηρεσίες</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">Βιογραφικό</a>
+    </li>
+    
+    <li class="">
+      <a href="/news/">Blog</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Επικοινωνία</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div> 
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var navbar = document.getElementById('navbar');
+  var lastScrollTop = 0;
+
+  window.addEventListener('scroll', function () {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+      // Scrolling down
+      navbar.classList.add('scrolled');
+    } else {
+      // Scrolling up
+      navbar.classList.remove('scrolled');
+    }
+
+    lastScrollTop = scrollTop;
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+ <br> <br> <br> <br>  <!-- fixed navbar -->
+
+    <div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-6 col-lg-6 order-2 order-md-1">
+        <h1 id="όνομα-ιατρού-2---βασικός-τίτλος">Όνομα Ιατρού 2 - Βασικός τίτλος</h1>
+
+<p>Ειδικότητα. Απόφοιτος Πανεπιστημίου.<br />
+<a href="/about">Μάθετε περισσότερα…</a></p>
+ 
+      
+        
+          <div class="call">
+  <div class="call-box-top">
+    
+        <div class="call-phone"> <strong>Τηλέφωνο Ιατρείου: </strong> <a href="tel:+302100000000" aria-label="2100 000 000" > <big> 2100 000 000 </big> 
+ </a> </div>
+
+<div class="call-phone"> <strong>Κινητό Τηλέφωνο: </strong> <a href="tel:+306900000000"  aria-label="6900000000" > <big> 6900000000 </big>
+ </a> </div>
+    
+    
+    <div class="email"  ><strong>Email: </strong>
+      <a href="mailto:info@yourmail.gr" aria-label="info@yourmail.gr" > <big>
+        info@yourmail.gr </big>
+ </a> </div>
+    
+  </div>
+    
+      <div class="call-box-bottom">
+        <a href="contact" class="button">Επικοινωνηστε</a>
+      </div>
+    
+</div>
+
+        
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt="Όνομα τίτλος site 1 (φαίνεται στην καρτέλα του browser)" class="intro-image intro-image-absolute" src="images/profile/creading.jpg" />
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES POSITION HERE -->
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      
+      <div class="col-12 col-md-6 col-lg-3 mb-2"> <!-- col-lg-4 για 3 στήλες -->
+        <div class="feature">
+          
+          <div class="feature-image"><img alt="Συνταγογράφηση logo" src="/images/features/noun_branding_1885335.svg" width="80" height="80" /></div>
+          
+          <h2 class="feature-title"><b> Συνταγογράφηση </b> </h2>
+          <div class="feature-content">Συνταγογραφούνται τα τακτικά φάρμακα των ασθενών σε έντυπες ή και άυλες συνταγές.</div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-3 mb-2"> <!-- col-lg-4 για 3 στήλες -->
+        <div class="feature">
+          
+          <div class="feature-image"><img alt="Παραπεμπτικά εξετάσεων logo" src="/images/features/noun_The%20Process_1885341.svg" width="80" height="80" /></div>
+          
+          <h2 class="feature-title"><b> Παραπεμπτικά εξετάσεων </b> </h2>
+          <div class="feature-content">Συνταγογραφούνται παραπεμπτικά για τακτικό έλεγχο προσαρμοσμένα στο ιστορικό των ασθενών.</div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-3 mb-2"> <!-- col-lg-4 για 3 στήλες -->
+        <div class="feature">
+          
+          <div class="feature-image"><img alt="Kαρδιογράφημα logo" src="/images/features/ecg.svg" width="80" height="80" /></div>
+          
+          <h2 class="feature-title"><b> Kαρδιογράφημα </b> </h2>
+          <div class="feature-content">Διενεργείται καρδιογράφημα στα πλαίσια κλινικής εξέτασης ή σε προαγωνιστικό έλεγχο αθλητών.</div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-3 mb-2"> <!-- col-lg-4 για 3 στήλες -->
+        <div class="feature">
+          
+          <div class="feature-image"><img alt="Πιστοποιητικά logo" src="/images/features/report.svg" width="80" height="80" /></div>
+          
+          <h2 class="feature-title"><b> Πιστοποιητικά </b> </h2>
+          <div class="feature-content">Χορηγούνται πιστοποιητικά υγείας, κατοχής όπλων, ικανότητας οδήγησης κ.α. μετά τις απαιτούμενες εξετάσεις.</div>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--services go  in here -->
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      
+      
+      <div class="col-12 col-md-6 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="/services/1_karta_ygeias/"> <b> Κάρτα υγείας αθλητή</b> </a>
+            </h2>
+            <p>Η πιστοποίηση της υγείας των αθλητών καταγράφεται σε κάρτα υγείας, είναι υποχρεωτική και αποτελεί...</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="/services">ΟΛΕΣ ΟΙ ΥΠΗΡΕΣΙΕΣ</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">Ονομα 3 στο  <br> footer </h2>
+          <ul>
+            
+            
+            <li class="active">
+              <a href="/">Αρχική</a>
+            </li>
+            
+            <li class="">
+              <a href="/contact/">Επικοινωνία</a>
+            </li>
+            
+            <li class="">
+              <a href="/credits/">Credits</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+            <div class="social">
+  
+    <a href="https://github.com/taschar/taschar.github.io" target="blank"><img src="/images/social/github.svg" title="Github" alt="Github" /></a>
+  
+    <a href="https://www.facebook.com" target="blank"><img src="/images/social/facebook.svg" title="Facebook" alt="Facebook" /></a>
+  
+    <a href="mailto:info@yourdomainname.gr" target="blank"><img src="/images/social/email.svg" title="Email" alt="Email" /></a>
+  
+</div>
+
+
+
+
+
+          
+          
+          <div class="copyright">Κατασκευή σελίδας 2023-2024</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  <!--  -->
+</body>
+</html>

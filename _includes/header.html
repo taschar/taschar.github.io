@@ -1,0 +1,39 @@
+<div class='header' id='navbar'>
+  <div class="container">
+    <div class="logo">
+      <a href="{{ site.baseurl }}"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a> 
+    </div>
+ <div class="logo-mobile">
+      <a href="{{ site.baseurl }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}"  alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a> <!-- <a href="{{ site.baseurl }}"><em>όνομα 3 includes header </em> </a> -->
+    </div> 
+    {% include main-menu.html %}
+    {% include hamburger.html %}
+  </div> 
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var navbar = document.getElementById('navbar');
+  var lastScrollTop = 0;
+
+  window.addEventListener('scroll', function () {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+      // Scrolling down
+      navbar.classList.add('scrolled');
+    } else {
+      // Scrolling up
+      navbar.classList.remove('scrolled');
+    }
+
+    lastScrollTop = scrollTop;
+  });
+});
+</script>
+
+
+
+
+
+
