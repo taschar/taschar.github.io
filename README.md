@@ -1,4 +1,4 @@
-This site is deployed in https://allmedia.cyou and https://taschar.github.io 
+
 
 The website with my content is https://www.mymedic.gr
 
