@@ -4,16 +4,8 @@ layout: page
 description: credits 
 bodyClass: page-about
 ---
-Στη σελίδα αυτή βρίσκεται ο κώδικας  <a href="https://www.mymedic.gr" target="_blank" rel="noopener "  >ιατρικής ιστοσελίδας</a>.
  
 Για τη δημιουργία της σελίδας χρησιμοποιήθηκε το θέμα <a href="https://github.com/zerostaticthemes/jekyll-serif-theme" target="_blank" rel="noopener noreferrer"  >Jekyll Serif </a>.
-
-
-Μπορείτε να τροποποιήσετε και να χρησιμοποιήσετε όπως θέλετε τον κώδικα της σελίδας που θα βρείτε στο <a href="https://github.com/taschar/taschar.github.io" target="_blank" rel="noopener noreferrer" >Github αποθετήριο</a>.
-
-Το όνομα ιστοτόπου παρέχεται από  <a href="https://www.cretaforce.gr/" target="_blank" rel="noopener noreferrer" >cretaforce.gr</a> .
-
-Η σελίδα αυτή φιλοξενείται στο <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer" >netlify</a> και στο <a href="https://github.com" target="_blank" rel="noopener noreferrer" >github pages</a>. 
 
 
 ## Χρήσιμοι Σύνδεσμοι
