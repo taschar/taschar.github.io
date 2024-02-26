@@ -4,7 +4,7 @@ layout: page
 description: credits 
 bodyClass: page-about
 ---
- 
+ v2 <br>
 Για τη δημιουργία της σελίδας χρησιμοποιήθηκε το θέμα <a href="https://github.com/zerostaticthemes/jekyll-serif-theme" target="_blank" rel="noopener noreferrer"  >Jekyll Serif </a>.
 
 
