@@ -8,6 +8,9 @@ For fixed navbar on or off  edit "/layouts/default"
 
 For a woriking contact form , follow instructions in https://developers.cloudflare.com/workers/tutorials/handle-form-submissions-with-airtable/
 
+contact form alternative
+https://www.staticforms.xyz/
+
 # Jekyll Serif Theme
 
 Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
