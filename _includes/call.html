@@ -1,0 +1,22 @@
+<div class="call">
+  <div class="call-box-top">
+    {% if site.data.contact.phone %}
+        <div class="call-phone"> <strong>Τηλέφωνο Ιατρείου: </strong> <a href="tel:+302100000000" aria-label="2100 000 000" > <big> {{ site.data.contact.phone }} </big> 
+ </a> </div>
+
+<div class="call-phone"> <strong>Κινητό Τηλέφωνο: </strong> <a href="tel:+306900000000"  aria-label="6900000000" > <big> {{ 6900000000 }} </big>
+ </a> </div>
+    {% endif %}
+    {% if site.data.contact.email %}
+    <div class="email"  ><strong>Email: </strong>
+      <a href="mailto:{{ .site.data.contact.email }}" aria-label="info@yourmail.gr" > <big>
+        {{ site.data.contact.email }} </big>
+ </a> </div>
+    {% endif %}
+  </div>
+    {% if include.show_button %}
+      <div class="call-box-bottom">
+        <a href="{{ site.data.contact.contact_button_link }}" class="button">Επικοινωνηστε</a>
+      </div>
+    {% endif %}
+</div>

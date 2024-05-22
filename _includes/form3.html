@@ -1,0 +1,52 @@
+<html lang="el" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Form</title>
+<link href="/assets/css/form3.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="col-lg-12 text-center">
+    <h2 >Φόρμα Επικοινωνίας</h2>
+    <h3 class="section-subheading text-muted">Αν έχετε οποιαδήποτε ερώτηση ή παρατήρηση μπορείτε να μας στείλετε μήνυμα και θα χαρούμε να επικοινωνήσουμε μαζί σας το συντομότερο δυνατόν.<br></h3>
+      <form action="https://myform.mymedic.gr/submit" method="POST">
+
+        <div class="txt_field">
+          <input type="text" name="full_name" id="full_name" required>
+          <span></span>
+          <label>Ονοματεπώνυμο *</label>
+        </div>
+
+        <div class="txt_field">
+            <input type="text" name="email" id="email" required>
+            <span></span>
+            <label>Διεύθυνση email *</label>
+        </div>
+        <div class="txt_field">
+            <input type="tel" name="phone" id="phone" >
+            <span></span>
+            <label>Αριθμός τηλεφώνου</label>
+        </div>
+
+        <div class="txt_field">
+          <input type="text" name="message" id="message" maxlength="500" required>
+          <span></span>
+          <label>Το μήνυμά σας *</label>
+        </div>
+
+      <!--  <div class="pass">
+            <input class="pass" type="reset" value="Reset">
+        </div> -->
+
+        <input type="submit" value="Υποβολή">
+        <input type="hidden" name="_template" value="table">
+
+        <div class="homePage_link">
+<p >Τα πεδία με αστερίσκο είναι υποχρεωτικά</p>
+        <a href="#">Επιστροφή στην κορυφή</a>
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>

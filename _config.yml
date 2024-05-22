@@ -1,0 +1,58 @@
+baseurl: '/'
+url: 'https://allmedia.cyou'
+permalink: pretty
+title: 'Ονομα 3 στο  <br> footer '
+
+logo:
+  mobile: "images/logo/logo.svg"
+  mobile_height: "45px"
+  mobile_width: "45px"
+  desktop: "images/logo/logo8.svg"
+  desktop_height: "45px"
+  desktop_width: "190px"
+
+home: 
+  limit_services: 6
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  news:
+    output: true
+    sort_by: weight
+  
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "news_service"
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-sitemap
+
+menu: 
+  show_dropdown_items_in_mobile_menu: true
+  show_social_media_in_mobile_menu: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

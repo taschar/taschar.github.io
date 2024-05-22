@@ -1,0 +1,13 @@
+{
+    "originRepo": "https://github.com/taschar/taschar.github.io",
+    "title": "Αναστάσιος Χαραλάμπους Ειδικός Παθολόγος Ματαράγκα Αγρίνιο",
+    "description": "Αναστασιος Χαραλάμπους Ιατρός Παθολόγος Αγρίνιο Ματαράγκα",
+    "demoUrl": "https://mymedic.gr",
+    "categories": {
+      "ssg": ["jekyll"],
+      "css": ["bootstrap", "scss"],
+      "archetype": ["medical"],
+      "features": ["netlify", "github-pages"],
+      "blueprint": ["theme"]
+    }
+}
